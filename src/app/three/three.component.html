@@ -1,0 +1,16 @@
+<p>three works!</p>
+
+<div class="box"  *ngIf="renu;else other_content" >
+    <p>Welcome Renuka
+    </p>
+</div>
+<ng-template #other_content>
+    <h1>Hello</h1>
+</ng-template>
+
+<input type="text" #val>
+<button (click)="clickMe(val.value)">click</button>
+
+<ng-template *ngIf="renu">
+    <h1>Hello everyone</h1>
+</ng-template>

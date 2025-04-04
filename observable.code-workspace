@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../prc_task"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "observable"
+	}
+}

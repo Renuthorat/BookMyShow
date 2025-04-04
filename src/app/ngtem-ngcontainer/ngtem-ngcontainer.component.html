@@ -1,0 +1,43 @@
+<!-- <h1>This is ngtemplate</h1> -->
+<!-- <ng-template [ngIf]="renu">
+    <h1>Hello everyone</h1>
+</ng-template>
+<div [ngSwitch]="'developer'">
+<p *ngSwitchCase="'developer'">Developer</p>
+<p *ngSwitchCase="'-webdeveloper'">Web-developer</p>
+</div> -->
+
+<!-- <ng-container *ngIf="isManager">
+    <ng-template [ngIf]="renu ">
+        <h1>Hello everyone</h1>
+    </ng-template>
+    
+
+</ng-container> -->
+
+<ng-content></ng-content>
+<ng-content select="[role]"></ng-content> <!--ng content ex -->
+
+<div class="row">
+    <div class="col-sm-6">
+        <app-card>
+            <h5 class="card-title">Apple</h5>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </app-card>
+    </div>
+    <div class="col-sm-6">
+        <app-card>
+            <h5 class="card-title">One Plus</h5>
+        </app-card>
+    </div>
+    <div class="col-sm-6">
+        <app-card>
+            <h5 class="card-title">Samsung</h5>
+        </app-card>
+    </div>
+    <div class="col-sm-6">
+        <app-card>
+            <h5 class="card-title">Vivo</h5>
+        </app-card>
+    </div>
+</div>

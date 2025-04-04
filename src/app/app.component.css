@@ -1,0 +1,11 @@
+.container{
+    border:2px solid gray;
+    height:400px;
+    /* display:flex;
+    flex-wrap: wrap-reverse;
+    gap:10px; */
+}
+.box{
+    width:80px;
+    border:2px solid pink;
+}
