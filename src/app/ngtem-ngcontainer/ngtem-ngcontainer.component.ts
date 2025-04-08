@@ -8,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class NgtemNgcontainerComponent implements OnInit {
   renu:boolean=true;
   isManager:boolean=true;
+  fontColor='orange';
+  canClick=false;
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  sayMessage(){
+    alert('It works')
   }
 
 }

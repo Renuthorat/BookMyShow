@@ -21,11 +21,14 @@
 <div class="row">
     <div class="col-sm-6">
         <app-card>
-            <h5 class="card-title">Apple</h5>
+            <h5 class="card-title" [style.color]="fontColor">Apple</h5>
             <a href="#" class="btn btn-primary">Go somewhere</a>
         </app-card>
+        <button type="button" [disabled]="canClick"  (click)="sayMessage()">
+            Trigger alert message
+        </button>
     </div>
-    <div class="col-sm-6">
+    <!-- <div class="col-sm-6">
         <app-card>
             <h5 class="card-title">One Plus</h5>
         </app-card>
@@ -39,5 +42,5 @@
         <app-card>
             <h5 class="card-title">Vivo</h5>
         </app-card>
-    </div>
+    </div> -->
 </div>
