@@ -10,7 +10,18 @@ export class AppComponent  implements OnInit{
   ngOnInit(): void {
     let result='renuka'
     result.replace('n','u');
-    console.log(result)
+    console.log(result);
+
+
+    let i=1;
+    console.log(i++);
+    console.log(--i);
+setTimeout(()=>{
+  console.log('settimeout',i);
+
+})
+console.log(++i);
+console.log(i--);
 
   }
   title = 'observable';

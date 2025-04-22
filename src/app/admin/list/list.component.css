@@ -1,0 +1,26 @@
+.toggle-container {
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #d4f3e8; /* light green background */
+    width: fit-content;
+    font-family: Arial, sans-serif;
+  }
+
+  .toggle-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: 600;
+  }
+
+  .active {
+    background-color: #00a86b; /* green */
+    color: white;
+  }
+
+  .inactive {
+    color: #000;
+  }
